@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.rulers": [88],
+  "editor.lineHeight": 1.8,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true
+  },
+  "terminal.integrated.fontSize": 13,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0a0a0f",
+    "sideBar.background": "#12121a",
+    "editor.background": "#0a0a0f",
+    "titleBar.activeBackground": "#0a0a0f",
+    "statusBar.background": "#7c3aed"
+  }
+}
